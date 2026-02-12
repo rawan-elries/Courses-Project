@@ -1,0 +1,197 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Beginner's Guide to Design",
+      "mentor": "Ronald Richards",
+      "rating": 4.5,
+      "students": 1200,
+      "price": 149.9,
+      "image": "https://campustechnology.com/-/media/edu/campustechnology/2019-images/20191209online.jpg",
+      "category": "Design",
+      "chapters": 12
+    },
+    {
+      "id": 2,
+      "title": "UI/UX Fundamentals",
+      "mentor": "Kristin Watson",
+      "rating": 4.7,
+      "students": 980,
+      "price": 169.9,
+      "image": "https://campustechnology.com/-/media/edu/campustechnology/2019-images/20191209online.jpg",
+      "category": "Design",
+      "chapters": 10
+    },
+    {
+      "id": 3,
+      "title": "React for Beginners",
+      "mentor": "Cameron Williamson",
+      "rating": 4.6,
+      "students": 2100,
+      "price": 199.9,
+      "image": "https://campustechnology.com/-/media/edu/campustechnology/2019-images/20191209online.jpg",
+      "category": "Development",
+      "chapters": 15
+    },
+    {
+      "id": 4,
+      "title": "Advanced JavaScript",
+      "mentor": "Esther Howard",
+      "rating": 4.8,
+      "students": 3200,
+      "price": 219.9,
+      "image": "https://campustechnology.com/-/media/edu/campustechnology/2019-images/20191209online.jpg",
+      "category": "Development",
+      "chapters": 18
+    },
+    {
+      "id": 5,
+      "title": "Node.js Crash Course",
+      "mentor": "Jacob Jones",
+      "rating": 4.4,
+      "students": 1500,
+      "price": 179.9,
+      "image": "https://campustechnology.com/-/media/edu/campustechnology/2019-images/20191209online.jpg",
+      "category": "Backend",
+      "chapters": 14
+    },
+    {
+      "id": 6,
+      "title": "MongoDB for Beginners",
+      "mentor": "Devon Lane",
+      "rating": 4.3,
+      "students": 870,
+      "price": 129.9,
+      "image": "https://campustechnology.com/-/media/edu/campustechnology/2019-images/20191209online.jpg",
+      "category": "Backend",
+      "chapters": 9
+    },
+    {
+      "id": 7,
+      "title": "Fullstack MERN Bootcamp",
+      "mentor": "Ronald Richards",
+      "rating": 4.9,
+      "students": 4100,
+      "price": 299.9,
+      "image": "https://campustechnology.com/-/media/edu/campustechnology/2019-images/20191209online.jpg",
+      "category": "Fullstack",
+      "chapters": 25
+    },
+    {
+      "id": 8,
+      "title": "CSS Mastery",
+      "mentor": "Kristin Watson",
+      "rating": 4.5,
+      "students": 1400,
+      "price": 139.9,
+      "image": "https://campustechnology.com/-/media/edu/campustechnology/2019-images/20191209online.jpg",
+      "category": "Design",
+      "chapters": 11
+    },
+    {
+      "id": 9,
+      "title": "TypeScript Essentials",
+      "mentor": "Cameron Williamson",
+      "rating": 4.6,
+      "students": 1750,
+      "price": 189.9,
+      "image": "https://campustechnology.com/-/media/edu/campustechnology/2019-images/20191209online.jpg",
+      "category": "Development",
+      "chapters": 13
+    },
+    {
+      "id": 10,
+      "title": "API Design with Express",
+      "mentor": "Jacob Jones",
+      "rating": 4.4,
+      "students": 990,
+      "price": 159.9,
+      "image": "https://campustechnology.com/-/media/edu/campustechnology/2019-images/20191209online.jpg",
+      "category": "Backend",
+      "chapters": 12
+    }
+  ],
+
+  "mentors": [
+    {
+      "id": 1,
+      "name": "Ronald Richards",
+      "jobTitle": "UI/UX Designer",
+      "rating": 4.8,
+      "students": 3500,
+      "courses": 12,
+      "image": "https://media.istockphoto.com/id/1364917563/photo/businessman-smiling-with-arms-crossed-on-white-background.jpg?s=2048x2048&w=is&k=20&c=uEaEqFvI74GpTWzcRCiDMR3qWqS2qVzKQREVBgmcxao="
+    },
+    {
+      "id": 2,
+      "name": "Kristin Watson",
+      "jobTitle": "Frontend Developer",
+      "rating": 4.7,
+      "students": 2800,
+      "courses": 8,
+      "image": "https://media.istockphoto.com/id/1364917563/photo/businessman-smiling-with-arms-crossed-on-white-background.jpg?s=2048x2048&w=is&k=20&c=uEaEqFvI74GpTWzcRCiDMR3qWqS2qVzKQREVBgmcxao="
+    },
+    {
+      "id": 3,
+      "name": "Cameron Williamson",
+      "jobTitle": "Fullstack Developer",
+      "rating": 4.9,
+      "students": 5000,
+      "courses": 15,
+      "image": "https://media.istockphoto.com/id/1364917563/photo/businessman-smiling-with-arms-crossed-on-white-background.jpg?s=2048x2048&w=is&k=20&c=uEaEqFvI74GpTWzcRCiDMR3qWqS2qVzKQREVBgmcxao="
+    },
+    {
+      "id": 4,
+      "name": "Cameron Williamson",
+      "jobTitle": "Fullstack Developer",
+      "rating": 4.3,
+      "students": 5000,
+      "courses": 15,
+      "image": "https://media.istockphoto.com/id/1364917563/photo/businessman-smiling-with-arms-crossed-on-white-background.jpg?s=2048x2048&w=is&k=20&c=uEaEqFvI74GpTWzcRCiDMR3qWqS2qVzKQREVBgmcxao="
+    },
+    {
+      "id": 5,
+      "name": "Cameron Williamson",
+      "jobTitle": "Fullstack Developer",
+      "rating": 4.5,
+      "students": 5000,
+      "courses": 15,
+      "image": "https://media.istockphoto.com/id/1364917563/photo/businessman-smiling-with-arms-crossed-on-white-background.jpg?s=2048x2048&w=is&k=20&c=uEaEqFvI74GpTWzcRCiDMR3qWqS2qVzKQREVBgmcxao="
+    }
+  ],
+
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Jane Doe",
+      "job": "Designer",
+      "comment": "This course was amazing. I learned so much and the explanation was very clear.",
+      "rating": 5,
+      "image": "https://media.istockphoto.com/id/505653911/photo/hes-the-modern-man.jpg?s=2048x2048&w=is&k=20&c=thm4FBXMCnuTpW-4IPar_x93dWjMm4cUKuEHoVB2DcY="
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "job": "Developer",
+      "comment": "Very practical content and easy to follow for beginners.",
+      "rating": 4,
+      "image": "https://media.istockphoto.com/id/505653911/photo/hes-the-modern-man.jpg?s=2048x2048&w=is&k=20&c=thm4FBXMCnuTpW-4IPar_x93dWjMm4cUKuEHoVB2DcY="
+    },
+    {
+      "id": 3,
+      "name": "Michael Brown",
+      "job": "Backend Developer",
+      "comment": "Helped me understand API structure and clean architecture.",
+      "rating": 5,
+      "image": "https://media.istockphoto.com/id/505653911/photo/hes-the-modern-man.jpg?s=2048x2048&w=is&k=20&c=thm4FBXMCnuTpW-4IPar_x93dWjMm4cUKuEHoVB2DcY="
+    },
+    {
+      "id": 4,
+      "name": "David Lee",
+      "job": "Student",
+      "comment": "The mentor explains complex topics in a simple way.",
+      "rating": 4,
+      "image": "https://media.istockphoto.com/id/505653911/photo/hes-the-modern-man.jpg?s=2048x2048&w=is&k=20&c=thm4FBXMCnuTpW-4IPar_x93dWjMm4cUKuEHoVB2DcY="
+    }
+  ]
+}

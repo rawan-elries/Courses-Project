@@ -1,0 +1,369 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    padding: 14px 50px;
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    top: 0;
+}
+
+
+/* Left side */
+.left 
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.img 
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.img img 
+{
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Search */
+.search 
+{
+    position: relative;
+}
+
+.search img 
+{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    width: 16px;
+    opacity: 0.6;
+}
+
+.search input 
+{
+    width: 320px;
+    padding: 9px 14px 9px 38px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+
+/* Right side */
+.right 
+{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.right a , .categories
+{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.cart
+{
+    width: 20px;
+    cursor: pointer;
+}
+
+.login
+{
+    padding: 6px 14px;
+    border: 1px solid #333;
+    border-radius: 6px;
+}
+
+.signup
+{
+    padding: 6px 14px;
+    background-color: #577;
+    color: #fff;
+    border-radius: 6px;
+}
+
+
+.study
+{
+    width: 50%;
+}
+
+
+.study img
+{
+    width: 100%;
+    border-radius: 17px;
+    height: 570px;
+}
+
+
+.block
+{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 70px;
+}
+
+
+ .row
+ {
+    display: flex;
+ }
+
+
+ .all
+ {
+    height: 70vh;
+ }
+
+
+ .all h2
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.form .inner
+{
+    display: flex;
+    margin-bottom: 7px;
+}
+
+
+.form .inner input , #user
+{
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    padding: 7px;
+}
+
+
+#name
+{
+    margin-left: 17px;
+}
+
+
+#user , #email
+{
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    padding: 7px;
+    width: 373px;
+    margin-bottom: 17px;
+    margin-top: 7px;
+}
+
+
+.center
+{
+    margin-left: 107px;
+}
+
+
+.space
+{
+    margin-bottom: 30px;
+}
+
+
+#outer
+{
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    padding: 7px;
+    margin-bottom: 30px;
+    margin-top: 7px;
+}
+
+
+.class
+{
+    margin-right: 50px;
+}
+
+
+.button
+{
+    background-color: black;
+    color: #fff;
+    width: 170px;
+    height: 37px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+.signupwith
+{
+    color: #534f4f;
+    margin: 17px 0;
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+}
+
+
+.signupwith::before , 
+.signupwith::after
+{
+    content: "";
+    flex: 1;
+    height: 1px;
+    margin-top: 7px;
+    background-color: #534f4f;
+}
+
+
+.facebook , .google , .microsoft
+{
+    padding: 7px;
+    border-radius: 17px;
+    text-align: center;
+    margin-left: 7px;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.facebook:hover
+{
+    transform: scale(1.1);
+}
+
+
+.google:hover
+{
+    transform: scale(1.1);
+}
+
+
+.microsoft:hover
+{
+    transform: scale(1.1);
+}
+
+
+.facebook i
+{
+    color: #1877f2;
+    margin-right: 7px;
+}
+
+
+.google i
+{
+    color: #db4437; 
+    margin-right: 7px;
+}
+
+
+.microsoft i
+{ 
+    color: #00a4ef;
+    margin-right: 7px;
+}
+
+
+.socialbuttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+
+@media (max-width: 576px) 
+{
+
+    .header 
+    {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 15px;
+    }
+
+    .img img 
+    {
+        width: 25px;
+        height: 25px;
+    }
+
+    .search input 
+    {
+        width: 100%;
+    }
+
+    .right 
+    {
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 10px;
+    }
+
+    .study 
+    {
+        width: 100%;
+    }
+
+    .block, .row 
+    {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    #user, #email, #name, #outer 
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .button 
+    {
+        width: 100%;
+    }
+
+    .facebook, .google, .microsoft 
+    {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    .socialbuttons 
+    {
+        flex-direction: column;
+        gap: 5px;
+    }
+}

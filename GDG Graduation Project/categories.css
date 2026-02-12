@@ -1,0 +1,410 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Header */
+.header 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    padding: 14px 50px;
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    top: 0;
+}
+
+/* Left side */
+.left 
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img 
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.img img 
+{
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Search */
+.search 
+{
+    position: relative;
+}
+
+
+.search img 
+{
+    position: absolute;
+    margin-top: 17px;
+    left: 12px;
+    transform: translateY(-50%);
+    width: 16px;
+    opacity: 0.6;
+}
+
+
+.search input 
+{
+    width: 320px;
+    padding: 9px 14px 9px 38px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+
+/* Right side */
+.right 
+{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+
+.right a , .categories
+{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+
+.cart
+{
+    width: 20px;
+    cursor: pointer;
+}
+
+
+.filter
+{
+    margin-top: 117px;
+    margin-left: 17px;
+}
+
+
+.filter h1
+{
+    margin-bottom: 17px;
+}
+
+
+.filter button
+{
+    width: 67px;
+    height: 27px;
+    border: 1px solid #9b9a9a;
+    border-radius: 17px;
+    margin-top: 17px;
+}
+
+
+.contain1
+{
+    display: flex;
+}
+
+
+.course
+{
+    margin-left: 270px;
+}
+
+
+.course h2
+{
+    margin-left: 17px;
+}
+
+
+.rating
+{
+    background-color: #efefef;
+    width: 177px;
+    height: 27px;
+    border-radius: 7px;
+    margin-top: 30px;
+    padding-left: 7px;
+    padding-top: 5px;
+    margin-left: 17px;
+}
+
+
+.rating i
+{
+    margin-left: 100px;
+}
+
+
+.contain h2
+{
+    margin-top: 170px;
+    margin-left: 37px;
+}
+
+
+#courses
+{
+    display: grid;
+    gap: 17px;
+    padding: 17px;
+    grid-template-columns: repeat(3,1fr);
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+
+#mentors , #testimonials
+{
+    display: flex;
+    gap: 17px;
+    padding: 17px;
+    overflow-x: auto ;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+
+.coursecard, .mentorcard , .testimonialcard
+{
+    background-color: #f1f1f1;
+    border-radius: 17px;
+    width: 270px;
+    padding: 17px;
+    transition: all 0.3s ease;
+}
+
+
+.coursecard:hover , .mentorcard:hover , .testimonialcard:hover
+{
+    transform: translateY(-7px);
+    box-shadow: 0 7px 27px #9b9a9a;
+}
+
+
+.coursecard img , .mentorcard img , .testimonialcard img
+{
+    width: 237px;
+    border-radius: 17px;
+    margin-bottom: 17px;
+}
+
+
+.table
+{
+    background-color: #121e36;
+    color: #cbd5e1;
+    padding: 70px 80px;
+    margin-top: 300px;
+}
+
+
+.container
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 50px;
+}
+
+
+.sub1
+{
+    max-width: 420px;
+}
+
+
+.sub2
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+.sub2 img
+{
+    width: 33px;
+}
+
+
+.sub2 span
+{
+    font-size: 23px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.sub1 p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+/* Other columns */
+.columns h4
+{
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 17px;
+}
+
+
+.columns a
+{
+    display: block;
+    text-decoration: none;
+    color: #cbd5e1;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+.columns p
+{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+.footer
+{
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    margin-top: 17px;
+}
+
+
+.social
+{
+   margin: 30px;
+}
+
+
+@media (max-width: 576px) 
+{
+    .header 
+    {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 15px;
+    }
+
+    .left 
+    {
+        gap: 8px;
+    }
+
+    .img 
+    {
+        font-size: 16px;
+    }
+
+    .search input 
+    {
+        width: 100%;
+        padding: 7px 10px 7px 34px;
+        font-size: 14px;
+    }
+
+    .right
+    {
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 10px;
+    }
+
+    #courses
+    {
+        grid-template-columns: 1fr;
+        padding: 8px;
+        gap: 8px;
+    }
+
+    #mentors, #testimonials
+    {
+        flex-direction: column;
+        gap: 8px;
+        padding: 8px;
+    }
+
+    .coursecard, .mentorcard, .testimonialcard
+    {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .coursecard img, .mentorcard img, .testimonialcard img
+    {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 8px;
+    }
+
+    .table 
+    {
+        padding: 30px 15px;
+        margin-top: 180px;
+    }
+
+    .container
+    {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .sub2 img
+    {
+        width: 28px;
+    }
+
+    .sub2 span
+    {
+        font-size: 18px;
+    }
+
+    .columns h4
+    {
+        font-size: 15px;
+    }
+
+    .columns a, .columns p
+    {
+        font-size: 13px;
+    }
+
+    .footer
+    {
+        font-size: medium;
+        margin-top: 15px;
+    }
+
+    .social
+    {
+        margin: 10px 0;
+    }
+}
